@@ -1,0 +1,90 @@
+body {
+    font-family: Open Sans;
+}
+body a {
+    text-decoration: none;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    height: 10vh;
+}
+header span {
+    font-size: 12px;
+    display: grid;
+}
+.svg {
+    width: 130px;
+}
+main {
+    height: 80vh;
+    margin: 50px 200px;
+}
+main h1 {
+    font-weight: 800;
+    font-size: 25px;
+}
+.flex {
+    display: flex;
+    gap: 20px;
+}
+button.google, button.facebook {
+    color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 2px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+button.google img, button.facebook img  {
+    width: 20px;
+}
+button.facebook {background: #2e568b;}
+button.google {background: #4083db;}
+form {
+    display: grid;
+    width: 600px;
+    gap: 10px;
+}
+label {
+    font-weight: 800;
+    color: dimgrey;
+    font-size: 14px;
+}
+input {
+    padding: 10px 5px;
+    margin-bottom: 25px;
+}
+label:last-of-type {
+    font-weight: 400;
+}
+button[type="submit"] {
+    border: 2px dashed dimgrey;
+    border-radius: 50px;
+    width: 200px;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    opacity: .5;
+    font-weight: 800;
+}
+footer {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 50px;
+    font-size: 12px;
+    border-top: 1px solid #ccc;
+    position: absolute;
+    bottom: 0;
+    width: -webkit-fill-available;
+}
+footer span {
+    margin-left: 100px;
+    display: flex;
+    gap: 30px;
+}

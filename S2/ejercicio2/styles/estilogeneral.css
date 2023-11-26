@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 30px;
+}
+.two {
+    width: 600px;
+}
+form {
+    display: grid;
+}
+ul {
+    column-count: 2;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>[S2] Ejercicio 2</title>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./styles/estilogeneral.css">
+        <link href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="https://cdn-images.mailchimp.com/favicons/touch-icon-192.png">
+    </head>
+<body>
+    <section class="one"><img src="https://cdn-images.mailchimp.com/product/brand_assets/logos/mc-freddie-dark.svg" class="c-signupShell_freddie" width="300" alt="Mailchimp logo"></section>
+<section class="two"><h1>Welcome to Mailchimp</h1>
+<p>Find your people. Engage your costumers. Build your brand. Do it all with Mailchimp's Marketing Platform. Already have an account? <a href="/">Log in</a></p>
+<form action="/next-page" method="post">
+
+    <label for="email">Email</label>
+    <input type="email" name="email" required>
+    <label for="user">Username</label>
+    <input type="text" name="user" required>
+    <label for="pass" style="display: flex;
+    justify-content: space-between;">Password<span>Show</span></label>
+    <input type="password" name="pass" pattern="^(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^\w\d\s:])([^\s]){8,40}$" required>
+    <p><ul>
+        <li>One lowercase character</li>
+        <li>One uppercase character</li>
+        <li>One number</li>
+        <li>One special character</li>
+        <li>8 characters minimum</li>
+    </ul></p>
+    <div><button type="submit">Sign up</button>
+    <label><input type="checkbox">I don't want to receive emails about new Mailchimp products, best practices, or special offers.</label></div>
+</form> 
+<p>By clicking the "Sign Up" button, you are creating a Mailchimp account, and you agree to Mailchimp's <a href="/">Terms of Use</a> and <a href="/">Privacy Policy</a>.</p></section>   
+</body>
+</html>
